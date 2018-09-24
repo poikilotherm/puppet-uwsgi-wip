@@ -43,7 +43,7 @@ define uwsgi::app (
     ensure  => $ensure,
     owner   => $uid,
     group   => $gid,
-    mode    => '0644',
+    mode    => '0640',
     content => template($template),
     notify  => Service['uwsgi'],
   }

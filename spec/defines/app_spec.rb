@@ -29,7 +29,7 @@ describe 'uwsgi::app' do
                   'ensure' => 'present',
                   'owner' => 'test',
                   'group' => 'test',
-                  'mode' => '0644'
+                  'mode' => '0640'
                 )
             end
           else
@@ -39,7 +39,7 @@ describe 'uwsgi::app' do
                   'ensure' => 'present',
                   'owner' => 'test',
                   'group' => 'test',
-                  'mode' => '0644'
+                  'mode' => '0640'
                 )
             end
           end
@@ -50,7 +50,7 @@ describe 'uwsgi::app' do
                 'ensure' => 'present',
                 'owner' => 'test',
                 'group' => 'test',
-                'mode' => '0644'
+                'mode' => '0640'
               )
           end
         end
